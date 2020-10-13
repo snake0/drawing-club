@@ -8,14 +8,14 @@ from matplotlib import font_manager as fm, rcParams
 import seaborn as sns
 sns.set(font_scale=0.8)
 
-R1 = np.loadtxt(open("./data/heatmap1.csv","rb"),delimiter=",",skiprows=1)
-R2 = np.loadtxt(open("./data/heatmap2.csv","rb"),delimiter=",",skiprows=1)
-R3 = np.loadtxt(open("./data/heatmap3.csv","rb"),delimiter=",",skiprows=1)
-R4 = np.loadtxt(open("./data/heatmap4.csv","rb"),delimiter=",",skiprows=1)
-R5 = np.loadtxt(open("./data/heatmap5.csv","rb"),delimiter=",",skiprows=1)
-R6 = np.loadtxt(open("./data/heatmap6.csv","rb"),delimiter=",",skiprows=1)
-R7 = np.loadtxt(open("./data/heatmap7.csv","rb"),delimiter=",",skiprows=1)
-R8 = np.loadtxt(open("./data/heatmap8.csv","rb"),delimiter=",",skiprows=1)
+R1 = np.loadtxt(open("data/heatmap1.csv", "rb"), delimiter=",", skiprows=1)
+R2 = np.loadtxt(open("data/heatmap2.csv", "rb"), delimiter=",", skiprows=1)
+R3 = np.loadtxt(open("data/heatmap3.csv", "rb"), delimiter=",", skiprows=1)
+R4 = np.loadtxt(open("data/heatmap4.csv", "rb"), delimiter=",", skiprows=1)
+R5 = np.loadtxt(open("data/heatmap5.csv", "rb"), delimiter=",", skiprows=1)
+R6 = np.loadtxt(open("data/heatmap6.csv", "rb"), delimiter=",", skiprows=1)
+R7 = np.loadtxt(open("data/heatmap7.csv", "rb"), delimiter=",", skiprows=1)
+R8 = np.loadtxt(open("data/heatmap8.csv", "rb"), delimiter=",", skiprows=1)
 
 R1 = np.log2(R1 + 1)
 R2 = np.log2(R2 + 1)
