@@ -1,4 +1,6 @@
 # drawing-club
-Draw illustrative figures using OmniGraffle/Visio
+**TCloud Drawing Club**
 
-Draw data graphs using ``Python matplotlib``
+- Draw illustrative figures using ``OmniGraffle/Visio``
+
+- Draw data graphs using ``Python matplotlib``
